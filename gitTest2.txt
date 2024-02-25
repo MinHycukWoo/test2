@@ -1,1 +1,14 @@
-1.git init 이걸 해야 버전관리가 시작된다.,
+1.git init 이걸 해야 버전관리가 시작된다.
+2.로컬저장소에 원격 저장소 연결하기
+git remote add origin https://github.com/MinHycukWoo/test2.git
+origin 은 이름으로 변경가능
+ git remote -v
+로 조회 가능
+이떄 origin 부분에 들어오는 이름은 같은것이 있을 수 없다.
+
+원격 저장소 지우기
+git remote rm origin2
+
+git push -u origin master
+
+그럼 이제 push 할대 origin이 원격저장소 명이라는걸 알 수 있다,.
